@@ -7,7 +7,7 @@ jobs:
     - name: Generate Data
       run: echo "some data is generated" > data.txt
     - name: Updload data as artifactor
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: data-artifact
         path: data.txt
